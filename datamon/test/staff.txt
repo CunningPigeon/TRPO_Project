@@ -1,0 +1,27 @@
+<?php }
+            } else {
+                $stat = 1;
+                $query = mysqli_query($mysqli, "SELECT * FROM `booking` WHERE  `status` != {$stat}");
+                //получаем данные БД booking
+                $query = mysqli_fetch_all($query);
+                // print_r($query);
+
+                foreach ($query as $quer) {
+                } ?>
+                <tr>
+                    <td><?= $quer[0] /*Номер*/ ?></td>
+                    <td><?= $quer[1] . " " . $quer[2] . " " . $quer[3] /*ФИО*/ ?></td>
+                    <td><?= $quer[4] /*Номер стола*/ ?></td>
+                    <td><?= $quer[5] /*Перечень заказа*/ ?></td>
+                    <td><?= $quer[6] /*Примечание*/ ?></td>
+                    <td><?= $quer[7] /*Стоимость*/ ?></td>
+                    <?php
+                    foreach ($status as $stat) {
+                        if ($stat[0] == $quer[8]) {
+                            echo "<td>" . $stat[1] . "</td>";
+                        } /*Статус заказа*/
+                    }
+                    ?>
+                    <td><?= $quer[7] /*Ф-ции*/ ?></td>
+                <?php } ?>
+                </tr>

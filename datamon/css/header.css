@@ -1,0 +1,44 @@
+.a1 {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header {
+    /*display: grid;
+    grid-template-rows: 50% 50%;
+    */
+    padding: 10px 10px;
+    background: #597719;
+    color: #ffffff;
+    font-family: Uni Sans;
+}
+.header_item {
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px
+}
+
+.header_section {
+
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px
+}
+
+.headerButton {
+    cursor: pointer;
+}
+
+.header_client_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clientData {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 2px 15px;
+    font-size: 17px;
+    margin-left: 5px
+}

@@ -1,0 +1,20 @@
+.work{
+	display: grid;
+	grid-template-rows: 14% 14% 14% 14% 14% 14% 14%;
+}
+.row{
+    display: grid;
+    grid-template-columns: 30% 40% 50%;
+
+    width: 20%;
+    padding: 6px 12px;
+    font-weight: 450;
+    font-size: 13px;
+    margin-top: 15px;
+    height: 12px;
+}
+.lab{
+    font-weight: 450;
+    font-size: 15px;
+    margin-top: 15px;
+}

@@ -1,0 +1,48 @@
+/* Sortable tables 
+table.sortable a.sortheader {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+table.sortable span.sortarrow {
+    color: black;
+    text-decoration: none;
+}
+*/
+.work{
+	display: grid;
+	grid-template-rows: 14% 14% 14% 14% 14% 14% 14%;
+}
+.function{
+	display: grid;
+	grid-template-rows: 50% 50%;
+}
+
+.table{
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 98%;
+	margin: 1%;
+}
+.a.sortheader {
+	color:#666666;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+.table tbody tr:nth-child(odd){
+	background: #fff;
+}
+.table tbody tr:nth-child(even){
+	background: #F7F7F7;
+}

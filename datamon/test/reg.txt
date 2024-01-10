@@ -1,0 +1,24 @@
+/*
+print_r(mb_strlen($surname));
+if (mb_strlen($surname) < 5 || mb_strlen($surname) > 50){
+    echo "Недопустимая длина фамилии (от 5 до 50 символов)";
+    exit();
+} else if (mb_strlen($name) < 2 || mb_strlen($name) > 50){
+    echo "Недопустимая длина имени (от 2 до 50 символов)";
+    exit();
+} else if (mb_strlen($patron) > 50){
+    echo "Недопустимая длина отчества (от 5 до 50 символов)";
+    exit();
+} else if (mb_strlen($land) < 5 || mb_strlen($land) > 50){
+    echo "Недопустимая длина страны (от 5 до 50 символов)";
+    exit();
+} else if (mb_strlen($tel) < 11 || mb_strlen($tel) > 14){
+    echo "Недопустимая длина телефона (от 11 до 14 символов)";
+    exit();
+} else if (mb_strlen($login) < 5 || mb_strlen($login) > 50){
+    echo "Недопустимая длина логина (от 5 до 50 символов)";
+    exit();
+} else if (mb_strlen($pass) < 5 || mb_strlen($pass) > 50){
+    echo "Недопустимая длина пароля (от 5 до 50 символов)";
+    exit();
+}*/
